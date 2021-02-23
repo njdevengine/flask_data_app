@@ -25,7 +25,7 @@ books = [
 
 @app.route('/', methods=['GET'])
 def home():
-    return ''Distant Reading Archive: A prototype API for distant reading of science fiction novels.''
+    return 'Distant Reading Archive: A prototype API for distant reading of science fiction novels.'
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
 def api_all():
